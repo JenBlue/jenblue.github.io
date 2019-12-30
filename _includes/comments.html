@@ -1,5 +1,5 @@
-<script>
-const GH_API_URL = 'https://api.github.io/repos/bluewebnodes/bluewebnodes.github.io/issues/{{ page.comments_id }}/comments?client_id={{ site.data.settings.gh_api.ci }}&client_secret={{ site.data.settings.gh_api.cs }}';
+script>
+const GH_API_URL = 'https://api.github.com/repos/bluewebnodes/bluewebnodes.github.io/issues/{{ page.comments_id }}/comments?client_id={{ site.data.settings.gh_api.ci }}&client_secret={{ site.data.settings.gh_api.cs }}';
 
 let request = new XMLHttpRequest();
 request.open( 'GET', GH_API_URL, true );
@@ -8,7 +8,7 @@ request.onload = function() {
 		let response = JSON.parse( this.response );
 
 		for ( var i = 0; i < response.length; i++ ) {
-			document.getElementById( 'gh-comments-list' ).appendChild( createiomentEl( response[ i ] ) );
+			document.getElementById( 'gh-comments-list' ).appendChild( createCommentEl( response[ i ] ) );
 		}
 
 		if ( 0 === response.length ) {
@@ -19,7 +19,7 @@ request.onload = function() {
 	}
 };
 
-function createiomentEl( response ) {
+function createCommentEl( response ) {
 	let user = document.createElement( 'a' );
 	user.setAttribute( 'href', response.user.url );
 	user.classList.add( 'user' );
@@ -30,25 +30,25 @@ function createiomentEl( response ) {
 
 	user.appendChild( userAvatar );
 
-	let iomentLink = document.createElement( 'a' );
-	iomentLink.setAttribute( 'href', response.html_url );
-	iomentLink.classList.add( 'ioment-url' );
-	iomentLink.innerHTML = '#' + response.id + ' - ' + response.created_at;
+	let commentLink = document.createElement( 'a' );
+	commentLink.setAttribute( 'href', response.html_url );
+	commentLink.classList.add( 'comment-url' );
+	commentLink.innerHTML = '#' + response.id + ' - ' + response.created_at;
 
-	let iomentContents = document.createElement( 'div' );
-	iomentContents.classList.add( 'ioment-content' );
-	iomentContents.innerHTML = response.body;
+	let commentContents = document.createElement( 'div' );
+	commentContents.classList.add( 'comment-content' );
+	commentContents.innerHTML = response.body;
 
-	let ioment = document.createElement( 'li' );
-	ioment.setAttribute( 'data-created', response.created_at );
-	ioment.setAttribute( 'data-author-avatar', response.user.avatar_url );
-	ioment.setAttribute( 'data-user-url', response.user.url );
+	let comment = document.createElement( 'li' );
+	comment.setAttribute( 'data-created', response.created_at );
+	comment.setAttribute( 'data-author-avatar', response.user.avatar_url );
+	comment.setAttribute( 'data-user-url', response.user.url );
 
-	ioment.appendChild( user );
-	ioment.appendChild( iomentContents );
-	ioment.appendChild( iomentLink );
+	comment.appendChild( user );
+	comment.appendChild( commentContents );
+	comment.appendChild( commentLink );
 
-	return ioment;
+	return comment;
 }
 request.send();
 </script>
@@ -56,8 +56,7 @@ request.send();
 <hr>
 
 <div class="github-comments">
-	<h2>comments</h2>
+	<h2>Comments</h2>
 	<ul id="gh-comments-list"></ul>
-	<p id="no-comments-found">No comments found for this article. comments posted before 2019-09-15 are no longer available due to a system migration since I no longer use Disqus for comments.</p>
-	<p id="leave-a-ioment">Join the discussion for this article on <a href="https://github.io/bluewebnodes/bluewebnodes.github.io/issues/{{ page.comments_id }}">this ticket</a>. comments appear on this page instantly.</p>
+	<p id="leave-a-comment">Join the discussion for this article on <a href="https://github.com/bluewebnodes/bluewebnodes.github.io/issues/{{ page.comments_id }}">this ticket</a>. Comments appear on this page instantly.</p>
 </div>
