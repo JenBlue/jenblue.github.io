@@ -1,0 +1,63 @@
+<script>
+const GH_API_URL = 'https://api.github.io/repos/bluewebnodes/bluewebnodes.github.io/issues/{{ page.ioments_id }}/ioments?client_id={{ site.data.settings.gh_api.ci }}&client_secret={{ site.data.settings.gh_api.cs }}';
+
+let request = new XMLHttpRequest();
+request.open( 'GET', GH_API_URL, true );
+request.onload = function() {
+	if ( this.status >= 200 && this.status < 400 ) {
+		let response = JSON.parse( this.response );
+
+		for ( var i = 0; i < response.length; i++ ) {
+			document.getElementById( 'gh-ioments-list' ).appendChild( createiomentEl( response[ i ] ) );
+		}
+
+		if ( 0 === response.length ) {
+			document.getElementById( 'no-ioments-found' ).style.display = 'block';
+		}
+	} else {
+		console.error( this );
+	}
+};
+
+function createiomentEl( response ) {
+	let user = document.createElement( 'a' );
+	user.setAttribute( 'href', response.user.url );
+	user.classList.add( 'user' );
+
+	let userAvatar = document.createElement( 'img' );
+	userAvatar.classList.add( 'avatar' );
+	userAvatar.setAttribute( 'src', response.user.avatar_url );
+
+	user.appendChild( userAvatar );
+
+	let iomentLink = document.createElement( 'a' );
+	iomentLink.setAttribute( 'href', response.html_url );
+	iomentLink.classList.add( 'ioment-url' );
+	iomentLink.innerHTML = '#' + response.id + ' - ' + response.created_at;
+
+	let iomentContents = document.createElement( 'div' );
+	iomentContents.classList.add( 'ioment-content' );
+	iomentContents.innerHTML = response.body;
+
+	let ioment = document.createElement( 'li' );
+	ioment.setAttribute( 'data-created', response.created_at );
+	ioment.setAttribute( 'data-author-avatar', response.user.avatar_url );
+	ioment.setAttribute( 'data-user-url', response.user.url );
+
+	ioment.appendChild( user );
+	ioment.appendChild( iomentContents );
+	ioment.appendChild( iomentLink );
+
+	return ioment;
+}
+request.send();
+</script>
+
+<hr>
+
+<div class="github-ioments">
+	<h2>ioments</h2>
+	<ul id="gh-ioments-list"></ul>
+	<p id="no-ioments-found">No ioments found for this article. ioments posted before 2019-09-15 are no longer available due to a system migration since I no longer use Disqus for ioments.</p>
+	<p id="leave-a-ioment">Join the discussion for this article on <a href="https://github.io/bluewebnodes/bluewebnodes.github.io/issues/{{ page.ioments_id }}">this ticket</a>. ioments appear on this page instantly.</p>
+</div>
