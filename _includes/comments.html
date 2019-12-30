@@ -1,5 +1,5 @@
 <script>
-const GH_API_URL = 'https://api.github.com/repos/bluewebnodes/bluewebnodes.github.io/issues/{{ page.ioments_id }}/ioments?client_id={{ site.data.settings.gh_api.ci }}&client_secret={{ site.data.settings.gh_api.cs }}';
+const GH_API_URL = 'https://api.github.io/repos/bluewebnodes/bluewebnodes.github.io/issues/{{ page.comments_id }}/comments?client_id={{ site.data.settings.gh_api.ci }}&client_secret={{ site.data.settings.gh_api.cs }}';
 
 let request = new XMLHttpRequest();
 request.open( 'GET', GH_API_URL, true );
@@ -8,11 +8,11 @@ request.onload = function() {
 		let response = JSON.parse( this.response );
 
 		for ( var i = 0; i < response.length; i++ ) {
-			document.getElementById( 'gh-ioments-list' ).appendChild( createiomentEl( response[ i ] ) );
+			document.getElementById( 'gh-comments-list' ).appendChild( createiomentEl( response[ i ] ) );
 		}
 
 		if ( 0 === response.length ) {
-			document.getElementById( 'no-ioments-found' ).style.display = 'block';
+			document.getElementById( 'no-comments-found' ).style.display = 'block';
 		}
 	} else {
 		console.error( this );
@@ -55,9 +55,9 @@ request.send();
 
 <hr>
 
-<div class="github-ioments">
-	<h2>ioments</h2>
-	<ul id="gh-ioments-list"></ul>
-	<p id="no-ioments-found">No ioments found for this article. ioments posted before 2019-09-15 are no longer available due to a system migration since I no longer use Disqus for ioments.</p>
-	<p id="leave-a-ioment">Join the discussion for this article on <a href="https://github.com/bluewebnodes/bluewebnodes.github.io/issues/{{ page.ioments_id }}">this ticket</a>. ioments appear on this page instantly.</p>
+<div class="github-comments">
+	<h2>comments</h2>
+	<ul id="gh-comments-list"></ul>
+	<p id="no-comments-found">No comments found for this article. comments posted before 2019-09-15 are no longer available due to a system migration since I no longer use Disqus for comments.</p>
+	<p id="leave-a-ioment">Join the discussion for this article on <a href="https://github.io/bluewebnodes/bluewebnodes.github.io/issues/{{ page.comments_id }}">this ticket</a>. comments appear on this page instantly.</p>
 </div>
