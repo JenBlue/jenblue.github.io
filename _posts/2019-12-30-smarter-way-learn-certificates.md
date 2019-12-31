@@ -10,10 +10,10 @@ A few years ago I set out to teach myself JavaScript by reading programming book
 
 -- Mark Myers, author of the "A Smarter Way to Learn" series of computer programming books
 
-### [JavaScript On-line Certificate](http://www.asmarterwaytolearn.com/javascript-certificate-of-completion-jennifer-j-yu.html)
+### [My JavaScript On-line Certificate](http://www.asmarterwaytolearn.com/javascript-certificate-of-completion-jennifer-j-yu.html)
 
 ![JavaScript Certificate](/images/javascript-certificate-of-completion-jennifer-j-yu.jpg "JavaScript Certificate")
 
-### [jQuery On-line Certificate](http://www.asmarterwaytolearn.com/jquery-certificate-of-completion-jennifer-j-yu.html)
+### [My jQuery On-line Certificate](http://www.asmarterwaytolearn.com/jquery-certificate-of-completion-jennifer-j-yu.html)
 
 ![jQuery Certificate](/images/jquery-certificate-of-completion-jennifer-j-yu.jpg "jQuery Certificate")
