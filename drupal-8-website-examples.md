@@ -4,7 +4,9 @@ title: Drupal 8 网站设计与开发
 permalink: /drupal-8-website-examples/
 ---
 
-### Drupal 是一个自由开源的内容管理系统，自定义内容类型灵活，以安全性强著称。2.3%的网站由Drupal建造。著名案例包括：联合国、美国白宫、美国商务部、纽约时报、华纳、迪斯尼、联邦快递、索尼、美国哈佛大学等。
+Drupal 是一个自由开源的内容管理系统，自定义内容类型灵活，以安全性强著称。2.3%的网站由Drupal建造。著名案例包括：联合国、美国白宫、美国商务部、纽约时报、华纳、迪斯尼、联邦快递、索尼、美国哈佛大学等。
+
+Drupal 8 是 Drupal 现有版本，从 Drupal 7 升级之后，更加强大和灵活。
 
 ### 郡公共交通网站 [www.slcnypublictransit.com](http://www.slcnypublictransit.com)
 
