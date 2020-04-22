@@ -1,13 +1,13 @@
 ---
 layout: page
-title: 专题
+title: 成功案例
 permalink: /products/
 ---
 
-## [Drupal 8 Website Examples](/drupal-8-website-examples/)
+## [Drupal 8 网站设计与开发](/drupal-8-website-examples/)
 
-## [WordPress Website Examples](/wordPress-website-examples/)
+## [WordPress 网站设计与开发](/wordPress-website-examples/)
 
-## [Graphic Design Examples](/graphic-design-examples/)
+## [平面设计](/graphic-design-examples/)
 
-## [Drupal 7 Website Examples](/drupal-7-website-examples/)
+## [Drupal 7 网站设计与开发](/drupal-7-website-examples/)
