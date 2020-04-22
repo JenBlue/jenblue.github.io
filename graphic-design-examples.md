@@ -10,7 +10,7 @@ permalink: /graphic-design-examples/
 
 Made by Adobe Illustrator.
 
-![Rose Woman](/images/roseWomanFinal5BWN.jpg "Rose Woman")
+![Rose Woman](/images/roseWoman1.jpg "Rose Woman")
 
 ### Showcase Poster
 
