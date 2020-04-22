@@ -1,8 +1,10 @@
 ---
 layout: page
-title: Graphic Design Examples
+title: 平面设计
 permalink: /graphic-design-examples/
 ---
+
+### 平面设计包括广告， 海报， 宣传册，商标设计等等
 
 ### Painting - Rose Woman
 
