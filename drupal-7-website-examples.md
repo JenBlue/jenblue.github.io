@@ -1,8 +1,10 @@
 ---
 layout: page
-title: Drupal 7 Website Examples
+title: Drupal 7 网站设计与开发
 permalink: /drupal-7-website-examples/
 ---
+
+### Drupal 是一个自由开源的内容管理系统，自定义内容类型灵活，以安全性强著称。著名案例包括：联合国、美国白宫、美国商务部、纽约时报、华纳、迪斯尼、联邦快递、索尼、美国哈佛大学等。
 
 ### [www.shopthearcjslc.org](https://www.shopthearcjslc.org)
 
