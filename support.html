@@ -1,0 +1,20 @@
+---
+layout: page
+title: 技术支持
+permalink: /support/
+---
+
+<div class="posts">
+  {% for post in site.tags.support %}
+    <article class="post">
+
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+      <div class="entry">
+        {{ post.content | truncate: 76 }}
+      </div>
+
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">全文</a>
+    </article>
+  {% endfor %}
+</div>
