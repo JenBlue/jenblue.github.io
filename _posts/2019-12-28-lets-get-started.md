@@ -1,12 +1,15 @@
 ---
 layout: post
-title: 联系我们
-comments_id: 2
+title: Let’s Get Started
+comments_id: 5
 tag: featured
 ---
 
-如有需求，请点击下方“点击这里”留言，或发邮件给我我们，会为您竭诚服务！
+Contact us at [bluewebnodes@gmail.com](mailto:bluewebnodes@gmail.com) or<br />
+leave a comment below to start a conversation and show you how we can help!
 
-### 站内在线付款，使用PayPal公司付款通道，接受信用卡，借记卡，PayPal转账多种付款方式，便捷安全。
+### We accept Debit Card, Credit cards, and PayPal payments on-line using Encrypted Website Payments.
 
-预付款为预计全款额的 50%。收到最终产品后请在俩周内付清余额。我们在收到全额时，交付与最终产品相关的所有文件。
+50% of total estimated fee upon agreement of initial design will be paid first.<br />
+Remainder of fee payable not more than 14 days after receipt of finished product.<br />
+You will receive all the origianl files related initial design after full payment.
