@@ -4,7 +4,7 @@ title: Drupal 7 网站设计与开发
 permalink: /drupal-7-website-examples/
 ---
 
-### Drupal 是一个自由开源的内容管理系统，自定义内容类型灵活，以安全性强著称。著名案例包括：联合国、美国白宫、美国商务部、纽约时报、华纳、迪斯尼、联邦快递、索尼、美国哈佛大学等。
+### 我们可以为您的Drupal 7网站做维护工作，或升级到Drupal 8。 Drupal官网对Drupal 7的技术支持到2021年11月份截至， 但他们成立了一个Drupal 7专题组，继续提供Drupal 7核心代码与核心组件的安全维护升级服务。
 
 ### [www.thearcjslc.org/suggestionbox](http://www.thearcjslc.org/suggestionbox)
 
