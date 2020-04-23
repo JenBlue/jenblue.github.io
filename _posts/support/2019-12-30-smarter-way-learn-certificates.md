@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A Smarter Way to Learn 结业证书
-comments_id: 5
+comments_id: 7
 tag: support
 ---
 
