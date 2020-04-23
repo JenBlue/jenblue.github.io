@@ -5,7 +5,7 @@ comments_id: 2
 tag: featured
 ---
 
-邮箱：[bluewebnodes@gmail.com](mailto:bluewebnodes@gmail.com)
+[bluewebnodes@gmail.com](mailto:bluewebnodes@gmail.com)
 
 或者请点击下方留言，我们会为您竭诚服务！
 
