@@ -4,7 +4,7 @@ title: 工作室简介
 permalink: /about/
 ---
 
-晶蓝工作室成立于2013年，位于美国St. Lawrence County。我们有数年网络开发与平面设计服务经验。请联系我们： [bluewebnodes@gmail.com](mailto:bluewebnodes@gmail.com)。
+晶蓝工作室位于美国St. Lawrence County, 成立于2013年。我们有数年网络开发与平面设计服务经验。请联系我们： [bluewebnodes@gmail.com](mailto:bluewebnodes@gmail.com)。
 
 我们的设计属于个人定制。
 
@@ -18,7 +18,7 @@ permalink: /about/
 
 ### 设计师晶蓝
 
-本站内容欢迎转载，请注明出处及作者，勿抄袭或改写。
+本站内容欢迎评论、转载，请注明出处及作者，勿抄袭或改写。
 
 作者晶蓝，现居美国，在职网络开发员/平面设计师，酷爱花花草草，写写画画。
 
