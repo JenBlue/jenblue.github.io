@@ -15,6 +15,6 @@ A few years ago I set out to teach myself JavaScript by reading programming book
 
 ![JavaScript Certificate](/images/javascript-certificate-of-completion-jennifer-j-yu.jpg "JavaScript Certificate")
 
-### [我的jQuery结业证书e](http://www.asmarterwaytolearn.com/jquery-certificate-of-completion-jennifer-j-yu.html)
+### [我的jQuery结业证书](http://www.asmarterwaytolearn.com/jquery-certificate-of-completion-jennifer-j-yu.html)
 
 ![jQuery Certificate](/images/jquery-certificate-of-completion-jennifer-j-yu.jpg "jQuery Certificate")
