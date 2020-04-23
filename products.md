@@ -23,7 +23,7 @@ WordPress 是世界上最受欢迎的内容管理系统。WordPress最初于2003
 
 [![Autism Walk Banner](/images/autismWalkBanner.jpg "Autism Walk Banner")](/graphic-design-examples/)
 
-## [Drupal 7 网站设计与开发](/drupal-7-website-examples/)
+## [Drupal 7 网站维护与升级](/drupal-7-website-examples/)
 
 我们可以为您的Drupal 7网站做维护工作，或升级到Drupal 8。 Drupal官网对Drupal 7的技术支持到2021年11月份截至， 但他们成立了一个Drupal 7专题组，继续提供Drupal 7核心代码与核心组件的安全维护升级服务。
 
