@@ -21,7 +21,7 @@ WordPress 是世界上最受欢迎的内容管理系统。WordPress最初于2003
 
 平面设计包括广告， 海报， 宣传单，宣传册，文件夹，名片，明信片，和商标设计等等。
 
-[![Autism Walk Banner](/images/autismWalkBanner.jpg "Autism Walk Banner")](/graphic-design-examples/)
+[![Autism Walk Banner](/images/autismWalkflag48x24Small.jpg "Autism Walk Banner")](/graphic-design-examples/)
 
 ## [Drupal 7 网站维护与升级](/drupal-7-website-examples/)
 
