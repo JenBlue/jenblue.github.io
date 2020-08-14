@@ -16,6 +16,12 @@ permalink: /graphic-design-examples/
 ![Autism Walk Logo 2018](/images/AWCircusLogo.jpg "Autism Walk Logo 2018")
 ![Autism Walk Logo 2017](/images/AWDisnepLogo.jpg "Autism Walk Logo 2017")
 
+### 活动广告牌 - 自闭症关注2英里步行 
+
+使用Adobe Indesign软件制作。
+
+![Autism Walk Banner](/images/autismWalkBanner.jpg "Autism Walk Banner")
+
 ### 玻璃拼画 - 玫瑰女人香
 
 使用Adobe Illustrator软件制作。
