@@ -347,6 +347,11 @@ img[alt="Front Top"] {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 50%;
+
+  @include mobile {
+    width: 100%;
+  }	
 }
 
 .promo-centered {
