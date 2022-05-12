@@ -8,7 +8,7 @@ permalink: /services/
    <div class="containerfixed">
       <div class="row"> 
          <div class="col-md-3 col-lg-3" id="pagelayout11">
-            <p><a href="https://www.bluewebnodes.com"><img src="/images/blueWebNodesLogoFullColor.jpg" alt="Blue Web Nodes Logo"></a></p>
+            <p><a href="https://www.bluewebnodes.com"><img src="/images/jenBlueLogoFullColor.jpg" alt="Blue Web Nodes Logo"></a></p>
          </div>
          <div class="col-md-9 col-lg-9" id="pagelayout11">
             <p>晶蓝工作室位于美国St. Lawrence County, 成立于2013年。我们有数年网络开发与平面设计服务经验。我们的设计属于个人定制。</p>  
