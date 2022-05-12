@@ -1,43 +1,143 @@
 ---
 layout: page
-title: 平面设计
+title: Graphic Design
 permalink: /graphic-design-examples/
 ---
 
-平面设计包括广告， 海报， 宣传单，宣传册，文件夹，名片，明信片，和商标设计等等。
+<div class="submenuright">
+   <p><a href="/drupal-9-8-website-examples/">Drupal 9 &amp; 8 网站</a><a href="/wordPress-website-examples/">WordPress 网站</a><a href="/graphic-design-examples/">平面设计</a><a href="/drupal-7-website-examples/">Drupal 7 网站</a><span>静态网站</span></p>
+   <hr width="54%">
+</div>
 
-### 活动商标设计 - 自闭症关注2英里步行
-#### (每年一次: 2020年虚拟主题, 2019卡通书主题, 2018年马戏团主题, 2017迪士尼主题.)
+<div class="gridlayoutthird">
+    <p>平面设计包括广告， 海报， 宣传单，宣传册，文件夹，名片，明信片，和商标设计等等。</p>
+</div>
 
-使用Adobe Illustrator软件制作。
+<div class="gridlayoutsecond">
+   <div class="containerfixed2">
+      <div class="row"> 
+         <div class="col-md-3 col-lg-3">
+            <div class="center-cropped col-lg-12" id="graphicdesign11">
+               <p><a href="/images/ChristmasCardBlueWebNodes.jpg" target="_blank">全版</a></p>
+            </div>    
+         </div>
+         <div class="col-md-3 col-lg-3">
+            <div class="center-cropped col-lg-12" id="graphicdesign12">
+               <p><a href="/images/tigerYearCard2022.jpg" target="_blank">全版</a></p>     
+            </div>
+         </div>       
+         <div class="col-md-3 col-lg-3">
+            <div class="center-cropped col-lg-12" id="graphicdesign13">
+               <p><a href="/images/2021cowYear.jpg" target="_blank">全版</a></p>     
+            </div>
+         </div>
+         <div class="col-md-3 col-lg-3">
+            <div class="center-cropped col-lg-12" id="graphicdesign14">
+               <p><a href="/images/happyNewYear2021E.png" target="_blank">全版</a></p>     
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
 
-![Autism Walk Logo 2020](/images/AWLogo2020.jpg "Autism Walk Logo 2020")
-![Autism Walk Logo 2019](/images/AWBookLogo.jpg "Autism Walk Logo 2019")
-![Autism Walk Logo 2018](/images/AWCircusLogo.jpg "Autism Walk Logo 2018")
-![Autism Walk Logo 2017](/images/AWDisnepLogo.jpg "Autism Walk Logo 2017")
+<div class="gridlayoutfirst">
+   <div class="containerfixed2">
+      <div class="row"> 
+         <div class="col-md-6 col-lg-6">
+            <div class="center-cropped col-lg-12" id="graphicdesign31">
+               <p><a href="/images/autismWalkBanner.jpg" target="_blank">全版</a></p>     
+            </div>
+         </div>
+         <div class="col-md-6 col-lg-6">
+            <div class="center-cropped col-lg-12" id="graphicdesign32">
+               <p><a href="/images/roseWoman1.jpg" target="_blank">全版</a></p>     
+            </div>
+         </div>       
+      </div>
+   </div>
+</div>
 
-### 活动广告牌 - 自闭症关注2英里步行 
+<div class="gridlayoutsecond">
+   <div class="containerfixed2">
+      <div class="row"> 
+         <div class="col-md-3 col-lg-3">
+            <div class="center-cropped col-lg-12" id="graphicdesign21">
+               <p><a href="/images/autismWalkLogo2022.jpg" target="_blank">全版</a></p>     
+            </div>
+         </div>
+         <div class="col-md-3 col-lg-3">
+            <div class="center-cropped col-lg-12" id="graphicdesign22">
+               <p><a href="/images/AWBookLogo.jpg" target="_blank">全版</a></p>     
+            </div>
+         </div>       
+         <div class="col-md-3 col-lg-3">
+            <div class="center-cropped col-lg-12" id="graphicdesign23">
+               <p><a href="/images/AWCircusLogo.jpg" target="_blank">全版</a></p>     
+            </div>
+         </div>
+         <div class="col-md-3 col-lg-3">
+            <div class="center-cropped col-lg-12" id="graphicdesign24">
+               <p><a href="/images/AWDisnepLogo.jpg" target="_blank">全版</a></p>     
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
 
-使用Adobe Indesign软件制作。
+<div class="gridlayoutfirst">
+   <div class="containerfixed2">
+      <div class="row"> 
+         <div class="col-md-4 col-lg-4">
+            <div class="center-cropped col-lg-12" id="graphicdesign41">
+               <p><a href="/images/artsShow2017Flyer8.5x11.jpg" target="_blank">全版</a></p>     
+            </div>
+         </div>
+         <div class="col-md-4 col-lg-4">
+            <div class="center-cropped col-lg-12" id="graphicdesign42">
+               <p><a href="/images/childrenCareManagementFlyer2022.jpg" target="_blank">全版</a></p>     
+            </div>
+         </div>       
+         <div class="col-md-4 col-lg-4">
+            <div class="center-cropped col-lg-12" id="graphicdesign43">
+               <p><a href="/images/CPSflyer2018.jpg" target="_blank">全版</a></p>     
+            </div>
+         </div>       
+      </div>
+   </div>
+</div>
 
-![Autism Walk Banner](/images/autismWalkBanner.jpg "Autism Walk Banner")
+<div class="gridlayoutsecond">
+   <div class="containerfixed2">
+      <div class="row"> 
+         <div class="col-md-6 col-lg-6">
+            <div class="col-lg-12" id="graphicdesign51">
+               <h2><a href="/files/artsShowProgram2019.pdf" target="_blank">舞台剧表演节目单</a></h2>  
+               <p>点击以上链接查看</p>   
+            </div>
+         </div>
+         <div class="col-md-6 col-lg-6">
+            <div class="col-lg-12" id="graphicdesign52">
+               <h2><a href="/files/dpBooklet2019.pdf" target="_blank">旅游度假村主题宣传册</a></h2>     
+               <p>点击以上链接查看</p>   
+            </div>
+         </div>       
+      </div>
+   </div>
+</div>
 
-### 玻璃拼画 - 玫瑰女人香
-
-使用Adobe Illustrator软件制作。
-
-![Rose Woman](/images/roseWoman1.jpg "Rose Woman")
-
-### 舞台剧表演宣传单
-
-使用Adobe Indesign和Adobe Illustrator软件制作。
-
-![Showcase Poster](/images/artsShow2017Flyer8.5x11.jpg "Showcase Poster")
-
-### [舞台剧表演节目单](http://www.thearcjslc.org/sites/default/files/2019-08/artsShowProgram2019.pdf)
-
-使用Adobe Indesign软件制作。
-
-### [旅游度假村主题宣传册](http://www.thearcjslc.org/sites/default/files/2019-08/dpBooklet2019.pdf)
-
-使用Adobe Indesign软件制作。
+<div class="gridlayoutfirst">
+   <div class="containerfixed2">
+      <div class="row"> 
+         <div class="col-md-6 col-lg-6">
+            <div class="center-cropped col-lg-12" id="graphicdesign61">
+               <p><a href="/images/bridgesBrochure2022.jpg" target="_blank">全版</a></p>     
+            </div>
+         </div>
+         <div class="col-md-6 col-lg-6">
+            <div class="center-cropped col-lg-12" id="graphicdesign62">
+               <p><a href="/images/bridgesBrochure2022-2.jpg" target="_blank">全版</a></p>     
+            </div>
+         </div>       
+      </div>
+   </div>
+</div>
