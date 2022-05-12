@@ -225,6 +225,7 @@ img {
   height: 100px;
   margin-right: 15px;
   margin-left: 6%;
+  border-radius: 5px;
 
   @include mobile {
     float: none;
@@ -450,7 +451,7 @@ img[alt="Get Started"] {
     color: $logoBlue;
     padding: 8px;
     border-radius: 5px;
-    width: 160px;
+    width: 120px;
   }
 }
 
@@ -473,7 +474,7 @@ img[alt="Get Started"] {
     color: $logoBlue;
     padding: 8px;
     border-radius: 5px;
-    width: 56px;
+    width: 120px;
   }
 }
 
