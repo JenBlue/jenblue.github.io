@@ -5,7 +5,7 @@ permalink: /products/
 ---
 
 <div class="submenuright">
-   <p><a href="/drupal-9-8-website-examples/">Drupal 9 &amp; 8 网站</a><a href="/wordPress-website-examples/">WordPress 网站</a><a href="/graphic-design-examples/">Graphic Design</a><a href="/drupal-7-website-examples/">Drupal 7 网站</a><span>静态网站</span></p>
+   <p><a href="/drupal-9-8-website-examples/">Drupal 9 &amp; 8 网站</a><a href="/wordPress-website-examples/">WordPress 网站</a><a href="/graphic-design-examples/">平面设计</a><a href="/drupal-7-website-examples/">Drupal 7 网站</a><span>静态网站</span></p>
    <hr width="54%">
 </div>
 
