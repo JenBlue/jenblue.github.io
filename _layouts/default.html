@@ -17,7 +17,7 @@
 
   <body>
     <div class="wrapper-masthead">
-      <div class="container">
+      <div class="container-fluid">
         <header class="masthead clearfix">
           <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
 
@@ -27,8 +27,7 @@
           </div>
 
           <nav>
-            <a href="{{ site.baseurl }}/">首页</a>
-            <a href="{{ site.baseurl }}/about">简介</a>
+            <a href="{{ site.baseurl }}/services">简介</a>
             <a href="{{ site.baseurl }}/products">产品</a>
             <a href="{{ site.baseurl }}/support">支持</a>
             <a href="{{ site.baseurl }}/blog">博客</a>
@@ -38,12 +37,12 @@
       </div>
     </div>
 
-    <div id="main" role="main" class="container">
-      {{ content }}
+    <div id="main" role="main" class="container-fluid">
+        {{ content }}
     </div>
 
     <div class="wrapper-footer">
-      <div class="container">
+      <div class="container-fluid">
         <footer class="footer">
           {% include svg-icons.html %}
         </footer>
@@ -52,5 +51,7 @@
     </div>
 
     {% include analytics.html %}
+
+    {% include chat.html %}
   </body>
 </html>
