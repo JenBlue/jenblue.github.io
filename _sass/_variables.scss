@@ -20,10 +20,7 @@ $lightGray: #eee;
 $white: #fff;
 
 // Font stacks
-$barlowCondensed: 'Barlow Semi Condensed', Arial, sans-serif;
-$barlow: 'Barlow', Arial, sans-serif;
-$oranienbaum: 'Oranienbaum', Times New Roman, serif;
-$abrilFatface: 'Abril Fatface', Brush Script MT, cursive;
+$chineseFont: 'Hiragino Sans GB', 'Microsoft YaHei', '微軟正黑體', '蘋果儷中黑', Helvetica, Arial, sans-serif;
 
 // Mobile breakpoints
 @mixin mobile {
