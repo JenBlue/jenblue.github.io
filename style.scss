@@ -5,17 +5,7 @@
 // IMPORTS
 //
 
-/* Font for body and titles: font-family: $barlowCondensed: 'Barlow Semi Condensed', sans-serif; */
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&display=swap');
-
-/* Font for body and titles: font-family: $barlow: 'Barlow', sans-serif; */
-@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap"');
-
-/* Font for body and titles: font-family: $oranienbaum: 'Oranienbaum', serif; */
-@import url('https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap');
-
-/* Font for body and titles: font-family: $abrilFatface: 'Abril Fatface', cursive; */
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+/* $chineseFont: font-family: 'Hiragino Sans GB', 'Microsoft YaHei', '微軟正黑體', '蘋果儷中黑', Helvetica, Arial, sans-serif; */
 
 @import "reset";
 @import "variables";
@@ -33,7 +23,7 @@ html {
 
 body {
   background: $white;
-  font-family: $barlow;
+  font-family: $chineseFont;
   font-size: 20px;
   color: $darkGray;
   line-height: 1.4;
@@ -52,7 +42,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-family: $abrilFatface;
+  font-family: $chineseFont;
   font-weight: normal;
   font-size: 32px;
   color: $logoBlue;
@@ -62,32 +52,32 @@ h1 {
 }
 
 h2 {
-  font-family: $barlowCondensed;
+  font-family: $chineseFont;
   font-weight: bold;
   font-size: 28px;
   color: $orange;
 }
 
 h3 {
-  font-family: $barlowCondensed;
+  font-family: $chineseFont;
   font-weight: bold;
   font-size: 24px;
 }
 
 h4 {
-  font-family: $barlowCondensed;
+  font-family: $chineseFont;
   font-weight: bold;
   font-size: 22px;
   color: $gray;
 }
 
 h5, h6 {
-  font-family: $barlowCondensed;
+  font-family: $chineseFont;
   font-weight: bold;
 }
 
 p {
-  font-family: $barlow;
+  font-family: $chineseFont;
   font-size: 20px;
   margin: 15px 0;
   line-height: 1.4;
@@ -251,7 +241,7 @@ img {
   margin: 0;
   color: $darkGray;
   cursor: pointer;
-  font-family: $barlow;
+  font-family: $chineseFont;
   font-weight: 300;
   font-size: 28px;
   display: none;
@@ -272,7 +262,7 @@ nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
   margin-right: 4%;
-  font-family: $barlow;
+  font-family: $chineseFont;
   font-size: 22px;
   padding-bottom: 16px;
   border-bottom: 1px solid $lightGray;
