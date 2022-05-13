@@ -10,7 +10,7 @@ permalink: /drupal-9-8-website-examples/
 </div>
 
 <div class="gridlayoutthird">
-    <h2>Drupal 9 是 Drupal 现有版本. </h2>
+    <h2>Drupal 9 是 Drupal 现有版本 </h2>
 </div>
 
 Drupal是一个自由开源的内容管理系统，自定义内容类型灵活，以安全性强著称。全世界2.3%的网站由Drupal建造，并控制着4.6％的已知内容管理系统市场。著名案例包括：联合国、美国白宫、美国商务部、纽约时报、华纳、迪斯尼、联邦快递、索尼、美国哈佛大学等。
@@ -47,5 +47,5 @@ The Arc Jefferson - St. Lawrence 门户网站创建和开发在 Drupal 9 平台�
 
 <div class="gridlayoutthird">
     <h2>Drupal 8 是 Drupal 发展史上的重大突破</h2>
-    <p>本公司的 Drupal 8 网站都已经升级成 Drupal 9。</p>
+    <p>本公司的 Drupal 8 网站产品都已经升级成 Drupal 9。</p>
 </div>
