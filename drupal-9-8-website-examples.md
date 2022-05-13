@@ -13,7 +13,7 @@ permalink: /drupal-9-8-website-examples/
     <h2>Drupal 9 是 Drupal 现有版本 </h2>
 </div>
 
-Drupal是一个自由开源的内容管理系统，自定义内容类型灵活，以安全性强著称。全世界2.3%的网站由Drupal建造，并控制着4.6％的已知内容管理系统市场。著名案例包括：联合国、美国白宫、美国商务部、纽约时报、华纳、迪斯尼、联邦快递、索尼、美国哈佛大学等。
+Drupal 是一个自由开源的内容管理系统，自定义内容类型灵活，以安全性强著称。全世界2.3%的网站由 Drupal 建造，并控制着4.6％的已知内容管理系统市场。著名案例包括：联合国、美国白宫、美国商务部、纽约时报、华纳、迪斯尼、联邦快递、索尼、美国哈佛大学等。
 
 <div class="gridlayoutthird">
     <h2><a href="https://www.churchonthepark.org/cotp/web/" target="_blank">www.churchonthepark.org</a></h2>

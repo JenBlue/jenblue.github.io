@@ -10,17 +10,16 @@ permalink: /drupal-7-website-examples/
 </div>
 
 <div class="gridlayoutthird">
-    <h2>尽快升级你的Drupal 7网站</h2>
+    <h2>尽快升级你的 Drupal 7 网站</h2>
 </div>
 
-我们可以为你的Drupal 7网站做维护工作，或升级到Drupal 8。 Drupal官网对Drupal 7的技术支持到2021年11月份截至， 但他们成立了一个Drupal 7专题组，继续提供Drupal 7核心代码与核心组件的安全维护升级服务。
+我们可以为你的 Drupal 7 网站做维护工作，或升级到 Drupal 9。 Drupal 官网对 Drupal 7 的技术支持到2021年11月份截至， 但他们成立了一个 Drupal 7 专题组，继续提供 Drupal 7 核心代码与核心组件的安全维护升级服务。
 
 <div class="gridlayoutthird">
     <h2><a href="http://www.lodgeatdodgepond.org" target="_blank">www.lodgeatdodgepond.org</a></h2>
 </div>
 
-Lodge at Dodge Pond Hotel Website. There are responsive Google Map and Landscape Gallery on the website. I learned
-how to promo a business on Google Business and Google Hotel from this work.
+Lodge at Dodge Pond 宾馆网站。网站重点展示宾馆的风景优美，客房舒适，地理位置及天气交通情况； 并且在 Google Business 和 Google Hotel 上推荐。
 
 [![Site Home](/images/ladpHome2.jpg "lodgeatdodgepond.org Home")](http://www.lodgeatdodgepond.org)
 
@@ -28,7 +27,6 @@ how to promo a business on Google Business and Google Hotel from this work.
     <h2><a href="https://www.shopthearcjslc.org" target="_blank">www.shopthearcjslc.org</a></h2>
 </div>
 
-The Arc Jefferson - St. Lawrence G.O.A.L. in Canton website is a Drupal 7 eCommerce Website. I created it all by myself, even the
-draft of policies, and I became an expert on making an eCommerce website as a PCI Compliance for Credit Card Payment Security.
+The Arc Jefferson - St. Lawrence 网上购物店。 大型电子商务网站，遵从 PCI 支付卡行业标准。
 
 [![Site Home](/images/goalHome.jpg "shopthearcjslc.org Home")](https://www.shopthearcjslc.org)
