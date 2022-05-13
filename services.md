@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Services
+title: 工作室简介
 permalink: /services/
 ---
 
@@ -11,10 +11,13 @@ permalink: /services/
             <p><a href="https://www.bluewebnodes.com"><img src="/images/jenBlueLogoFullColor.jpg" alt="Blue Web Nodes Logo"></a></p>
          </div>
          <div class="col-md-9 col-lg-9" id="pagelayout11">
-            <p>晶蓝工作室位于美国St. Lawrence County, 成立于2013年。我们有数年网络开发与平面设计服务经验。我们的设计属于个人定制。</p>  
-            <p>We provide design, development, and maintenance services of <a href="/drupal-9-8-website-examples/">Drupal 9 &amp; 8 websites</a>, <a href="/wordPress-website-examples/">WordPress websites</a>, <a href="/drupal-7-website-examples/">Drupal 7 websites</a>, and static websites. We offers a full range of <a href="/graphic-design-examples/">graphic design</a> services.</p>
-            <p>We will provide technical support of our services.</p>  
-            <p>Locate in Potsdam, St. Lawrence County, NY, USA.</p>  
+            <p>晶蓝工作室位于美国 St. Lawrence County, 成立于2013年。我们有数年网络开发与平面设计服务经验。我们的设计属于个人定制。</p>
+            <p>我们的产品包括 <a href="/drupal-9-8-website-examples/">Drupal 9 &amp; 8 网站</a>, <a href="/wordPress-website-examples/">WordPress 网站</a>, <a href="/drupal-7-website-examples/">Drupal 7 网站</a>, 静态网站和各类 <a href="/graphic-design-examples/">平面设计</a>。</p>
+            <p>我们的服务宗旨是产品优秀，服务周到，真诚严谨，技术支持。</p>  
+            <h6>设计师晶蓝</h6>
+            <p>本站内容欢迎评论、转载，请注明出处及作者，勿抄袭或改写。</p> 
+            <p>作者晶蓝，现居美国，在职网络开发员/平面设计师，酷爱花花草草，写写画画。</p> 
+            <p>一花一世界，我的世界与别人的一定不同，可借鉴，勿套用。</p>  
          </div>       
       </div>
    </div>

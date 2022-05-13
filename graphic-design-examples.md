@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Graphic Design
+title: 平面设计
 permalink: /graphic-design-examples/
 ---
 
@@ -112,13 +112,13 @@ permalink: /graphic-design-examples/
          <div class="col-md-6 col-lg-6">
             <div class="col-lg-12" id="graphicdesign51">
                <h2><a href="/files/artsShowProgram2019.pdf" target="_blank">舞台剧表演节目单</a></h2>  
-               <p>点击以上链接查看</p>   
+               <p>点击标题阅览</p>   
             </div>
          </div>
          <div class="col-md-6 col-lg-6">
             <div class="col-lg-12" id="graphicdesign52">
                <h2><a href="/files/dpBooklet2019.pdf" target="_blank">旅游度假村主题宣传册</a></h2>     
-               <p>点击以上链接查看</p>   
+               <p>点击标题阅览</p>   
             </div>
          </div>       
       </div>
