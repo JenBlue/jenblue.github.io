@@ -59,32 +59,3 @@ permalink: /products/
       </div>
    </div>
 </div>
-
-<div class="gridlayoutsecond">
-   <div class="container-fluid">
-      <div class="row"> 
-         <div class="col-md-3 col-lg-3" id="colmddisplayno">
-            <p>&nbsp;</p>
-         </div>
-         <div class="col-md-6 col-lg-6" id="pagelayout11">
-            <h2><a href="/pcs-music-friends">Static Websites</a></h2>
-            <p><img src="/images/LogoWebApp.png" alt="Logo"></p>  
-            <p>We can build static websites with web-form without a database, and an HTML form will store the submissions on a Google Sheet.</p>
-         </div>       
-         <div class="col-md-3 col-lg-3" id="colmddisplayno">
-            <p>&nbsp;</p>
-         </div>
-      </div>
-      <div class="row" id="colmddisplayno"> 
-         <div class="col-md-3 col-lg-3" id="pagelayout21">
-            <p>&nbsp;</p>
-         </div>
-         <div class="col-md-6 col-lg-6" id="pagelayout21">
-            <p><a href="/pcs-music-friends">实际案例</a></p>
-         </div>       
-         <div class="col-md-3 col-lg-3" id="pagelayout21">
-            <p>&nbsp;</p>
-         </div>
-      </div>
-   </div>
-</div>
