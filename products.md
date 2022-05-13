@@ -39,12 +39,12 @@ permalink: /products/
    <div class="container-fluid">
       <div class="row"> 
          <div class="col-md-6 col-lg-6" id="pagelayout12">
-            <h2><a href="/graphic-design-examples">Graphic Design</a></h2>
+            <h2><a href="/graphic-design-examples">平面设计</a></h2>
             <p><a href="https://www.adobe.com/" target="_blank"><img src="/images/LogoAdobe.png" alt="Logo"></a></p>  
             <p>平面设计包括广告， 海报， 宣传单，宣传册，文件夹，名片，明信片，和商标设计等等。</p>
          </div>
          <div class="col-md-6 col-lg-6" id="pagelayout11">
-            <h2><a href="/drupal-7-website-examples">Drupal 7 Websites</a></h2>
+            <h2><a href="/drupal-7-website-examples">Drupal 7 网站</a></h2>
             <p><a href="https://www.drupal.org/" target="_blank"><img src="/images/LogoDrupal7.png" alt="Logo"></a></p>  
             <p>我们可以为您的Drupal 7网站做维护工作，或升级到Drupal 9。 Drupal官网对Drupal 7的技术支持到2021年11月份截至， 但他们成立了一个Drupal 7专题组，继续提供Drupal 7核心代码与核心组件的安全维护升级服务。</p>
          </div>       
