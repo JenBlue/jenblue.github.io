@@ -1,13 +1,20 @@
 ---
 layout: page
-title: WordPress 网站设计与开发
+title: WordPress Website
 permalink: /wordPress-website-examples/
 ---
 
-### WordPress 是世界上最受欢迎的内容管理系统。WordPress最初于2003年作为博客平台推出。如今全世界35.2％的网站由WordPress建造，并控制着62％的已知内容管理系统市场。著名实体案例包括：索尼手机，华盛顿大学，梅赛德斯奔驰和纽约客网站。
+<div class="submenuright">
+   <p><a href="/drupal-9-8-website-examples/">Drupal 9 &amp; 8 Websites</a><a href="/wordPress-website-examples/">WordPress Websites</a><a href="/graphic-design-examples/">Graphic Design</a><a href="/drupal-7-website-examples/">Drupal 7 Websites</a><span>Static Websites</span></p>
+   <hr width="54%">
+</div>
 
-### 美国理工科院校联盟门户网站 [https://theaitu.com](https://theaitu.com)
+WordPress is the world’s most popular content management system. 35% of the web uses WordPress, from hobby blogs to the biggest news sites online. We have created many WordPress websites, but most of them are not online anymore.
 
-美国理工科院校联盟门户网站是本工作室用WorkPress创建和开发的。网页布局使用Bootstrap 4自定义主题。网站主页有幻灯轮播，并实时转播各成员院校的新闻简讯。
+<div class="gridlayoutthird">
+    <h2><a href="https://www.theaitu.com" target="_blank">www.theaitu.com</a></h2>
+</div>
 
-[![Site Home](/images/theAitu1.jpg "theaitu.com Home")](https://theaitu.com)
+The AITU website is for Association of Independent Technological Universities. I built a WordPress custom theme using Bootstrap 4 for this website. It is created by PHP, HTML, CSS. The slideshow is built in. News feeds from all the university members.
+
+[![Site Home](/images/theAitu1.jpg "theaitu.com Home")](https://www.theaitu.com)

@@ -1,19 +1,19 @@
 ---
 layout: page
-title: Drupal 7 网站
+title: Drupal 7 Website
 permalink: /drupal-7-website-examples/
 ---
 
 <div class="submenuright">
-   <p><a href="/drupal-9-8-website-examples/">Drupal 9 &amp; 8 网站</a><a href="/wordPress-website-examples/">WordPress 网站</a><a href="/graphic-design-examples/">平面设计</a><a href="/drupal-7-website-examples/">Drupal 7 网站</a><span>静态网站</span></p>
+   <p><a href="/drupal-9-8-website-examples/">Drupal 9 &amp; 8 Websites</a><a href="/wordPress-website-examples/">WordPress Websites</a><a href="/graphic-design-examples/">Graphic Design</a><a href="/drupal-7-website-examples/">Drupal 7 Websites</a><span>Static Websites</span></p>
    <hr width="54%">
 </div>
 
 <div class="gridlayoutthird">
-    <h2>尽快升级你的Drupal 7网站</h2>
+    <h2>Upgrade your Drupal 7 site ASAP.</h2>
 </div>
 
-我们可以为你的Drupal 7网站做维护工作，或升级到Drupal 8。 Drupal官网对Drupal 7的技术支持到2021年11月份截至， 但他们成立了一个Drupal 7专题组，继续提供Drupal 7核心代码与核心组件的安全维护升级服务。
+If you have a Drupal 7 website needs maintanence or recreation to Drupal 9, I can help. Drupal community support will no longer be available after November 2021, but there’s a Drupal 7 Extended Support program which will continue to provide security updates for Drupal 7 core and certain contrib modules. We have created many Drupal 7 websites, but most of them are not online anymore.
 
 <div class="gridlayoutthird">
     <h2><a href="http://www.lodgeatdodgepond.org" target="_blank">www.lodgeatdodgepond.org</a></h2>
