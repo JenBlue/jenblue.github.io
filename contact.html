@@ -77,6 +77,17 @@ function SubForm (){
         <label for="project">方案详情</label>
         <textarea class="form-control" id="project" name="project" placeholder="你的方案......" style="height:200px"></textarea>
        </div>
+        
+       <div class="row">
+        <div class="col-md-6">
+          <label for="fname">提交日期:</label>
+          <input class="form-control" type="text" id="currentdate" name="currentdate" placeholder="今日">
+        </div>
+        <div class="col-md-6">
+          <label for="lname">完工日期:</label>
+          <input class="form-control" type="text" id="completiondate" name="completiondate" placeholder="你期望的完工日期或遵循我方安排">
+        </div>
+       </div>
 
       <button  class="btn btn-primary btn-block" type="submit" value="Submit" id="submit-form" onclick="SubForm ()">提交</button>
 
