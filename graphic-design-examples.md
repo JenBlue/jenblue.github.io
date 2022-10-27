@@ -5,7 +5,7 @@ permalink: /graphic-design-examples/
 ---
 
 <div class="submenuright">
-   <p><a href="/drupal-9-8-website-examples/">Drupal 9 &amp; 8 网站</a><a href="/wordPress-website-examples/">WordPress 网站</a><a href="/graphic-design-examples/">平面设计</a><a href="/drupal-7-website-examples/">Drupal 7 网站</a><span>静态网站</span></p>
+   <p><a href="/ecommerce-website-examples/">电子商务网站</a><a href="/regular-website-examples/">非电子商务网站</a><a href="/graphic-design-examples/">平面设计</a><a href="/more-examples/">更多案例</a></p>
    <hr width="54%">
 </div>
 
