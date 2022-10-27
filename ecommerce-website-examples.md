@@ -22,4 +22,4 @@ W8 网站是一个新型餐馆预定网站。顾客可以扫二维码，进入�
 </div>
 The Arc Jefferson - St. Lawrence 网上购物店。 大型电子商务网站，遵从 PCI 支付卡行业标准。(因疫情期劳务短缺暂停服务。)
 
-[![Site Home](/images/goalHome.jpg "shopthearcjslc.org Home")](https://www.shopthearcjslc.org)
+![Site Home](/images/goalHome.jpg "shopthearcjslc.org Home")
