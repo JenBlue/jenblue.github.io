@@ -9,7 +9,7 @@ permalink: /poems/
       <div class="row"> 
          <div class="col-md-9 col-lg-9" id="bloglayout11">
             <div class="posts">
-               {% for post in site.tags.prose limit: 8 %}
+               {% for post in site.tags.poem limit: 8 %}
                   <article class="post">
                      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
                      <div class="entry">
@@ -23,7 +23,7 @@ permalink: /poems/
          <div class="col-md-3 col-lg-3" id="bloglayout12">
             <h2>More Topics</h2>
             <div class="posts">
-               {% for post in site.tags.prose %}
+               {% for post in site.tags.poem %}
                   <article class="post">
                      <h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h5>
                   </article>
