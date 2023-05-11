@@ -1,0 +1,37 @@
+---
+layout: page
+title: 散文
+permalink: /proses/
+---
+
+<div class="gridlayoutsecond">
+   <div class="container-fluid">
+      <div class="row"> 
+         <div class="col-md-9 col-lg-9" id="bloglayout11">
+            <div class="posts">
+               {% for post in site.tags.sprose limit: 8 %}
+                  <article class="post">
+                     <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+                     <div class="entry">
+                        {{ post.content | truncatewords:200 }}
+                     </div>
+                     <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">全文</a>
+                  </article>
+               {% endfor %}
+            </div>
+         </div>       
+         <div class="col-md-3 col-lg-3" id="bloglayout12">
+            <h2>More Topics</h2>
+            <div class="posts">
+               {% for post in site.tags.prose %}
+                  <article class="post">
+                     <h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h5>
+                  </article>
+               {% endfor %}
+            </div>
+         </div>       
+      </div>
+   </div>
+</div>
+
+
