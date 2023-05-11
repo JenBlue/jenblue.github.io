@@ -45,6 +45,14 @@ layout: default
                   </article>
                {% endfor %}
             </div>
+            <div class="posts">
+               <h4>小说 · 爱在古城</h4>
+               {% for post in site.tags.novel2 limit: 8 %}
+                  <article class="post">
+                     <h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h5>
+                  </article>
+               {% endfor %}
+            </div>
          </div>       
       </div>
    </div>
