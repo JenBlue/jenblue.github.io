@@ -8,7 +8,7 @@ tag: poem
 积岸枯叶逐流飘<br />
 轻风拨响空枝木<br />
 新叶未发春尚早
-<p class="whiteWords">More</p>
+
 寂寞转身寻新伴<br />
 他年落黄林间绕<br />
 春风忽解秋水意<br />
