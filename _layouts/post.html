@@ -21,6 +21,13 @@ layout: default
          </div>       
          <div class="col-md-3 col-lg-3" id="bloglayout12">
             <h2>更多文章</h2>
+
+            <div class="posts">
+                  <article class="post">
+                     <h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h5>
+                  </article>
+            </div>
+
             <div class="posts">
                <h4>诗词</h4>
                {% for post in site.tags.poem limit: 8 %}
