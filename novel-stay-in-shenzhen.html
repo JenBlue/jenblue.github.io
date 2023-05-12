@@ -1,7 +1,7 @@
 ---
 layout: page
-title: 散文
-permalink: /proses/
+title: 小说 · 客过深圳
+permalink: /novel-stay-in-shenzhen/
 ---
 
 <div class="gridlayoutsecond">
@@ -9,7 +9,7 @@ permalink: /proses/
       <div class="row"> 
          <div class="col-md-9 col-lg-9" id="bloglayout11">
             <div class="posts">
-               {% for post in site.tags.prose limit: 8 %}
+               {% for post in site.tags.novel1 limit: 8 %}
                   <article class="post">
                      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
                      <div class="entry">
@@ -21,14 +21,15 @@ permalink: /proses/
             </div>
          </div>       
          <div class="col-md-3 col-lg-3" id="bloglayout12">
-            <h2>更多散文</h2>
+            <h2>小说 · 客过深圳</h2>
             <div class="posts">
-               {% for post in site.tags.prose %}
+               {% for post in site.tags.novel1 %}
                   <article class="post">
                      <h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h5>
                   </article>
                {% endfor %}
             </div>
+            <h2><a href="novel-love-in-xian.html">小说 · 爱在古城</a></h2>
          </div>       
       </div>
    </div>
