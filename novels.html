@@ -40,16 +40,16 @@ permalink: /novels/
          <div class="col-md-3 col-lg-3" id="bloglayout12">
             <h2>更多文章</h2>
             <div class="posts">
-               <h4><a href="/poems/">诗词</a></h4>
-               {% for post in site.tags.poem limit: 8 %}
+               <h4>诗词</h4>
+               {% for post in site.tags.poem %}
                   <article class="post">
                      <h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h5>
                   </article>
                {% endfor %}
             </div>
             <div class="posts">
-               <h4><a href="/proses/">散文</a></h4>
-               {% for post in site.tags.prose limit: 8 %}
+               <h4>散文</h4>
+               {% for post in site.tags.prose %}
                   <article class="post">
                      <h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h5>
                   </article>
