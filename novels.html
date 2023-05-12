@@ -13,7 +13,15 @@ permalink: /novels/
             <p>然而菁菁与吴昊大学恋情美好深厚，注定与周峰无缘。周峰另觅女友，要离职创业，却一定得菁菁相助……</p>
             <p>公司违法被检举，周峰受到怀疑报复，事业一落千丈；而菁菁辞职，误入期货公司，又受到千万富翁的追求，大家何去何从？</p>
             <p>风雨过后，却又是更大的雷暴，菁菁心碎了，彩虹在哪……</p>
+            <div class="posts">
+               {% for post in site.tags.novel1 %}
+                  <article class="post">
+                     <h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h5>
+                  </article>
+               {% endfor %}
+            </div>
             <h2><a href="/novel-love-in-xian/">小说 · 爱在古城</a></h2>
+
             <p>二十万字道不尽人生坎坷，胡诌数语诉一下儿女情愁：</p>
 
             <p>泽嘉，一个出身官家，但不喜官场，浪漫而有文学修养的年轻女孩；</p>
@@ -21,14 +29,32 @@ permalink: /novels/
             <p>思明，一个拥有与生俱来的骄傲，注定要走仕途的官场世家子弟；</p>
             <p>还有年轻的公司总裁程水清、大明星水冰儿，这些不同身世，拥有不同品格的年轻人是如何在西安古城这个大都市挣扎生存，演绎自己的人生呢？是如何在他们或高官，或富商，或卑贱的父辈的影响束缚下寻求维护属于自己的那份爱情呢？</p>
             <p>几生几死，几分几合，谁被无情地辗入都市官场商场混浊的泥沙之中？谁为了捍卫自己的真心而历尽磨难？</p>
-            <p>然而菁菁与吴昊大学恋情美好深厚，注定与周峰无缘。周峰另觅女友，要离职创业，却一定得菁菁相助……</p>
-            <p>公司违法被检举，周峰受到怀疑报复，事业一落千丈；而菁菁辞职，误入期货公司，又受到千万富翁的追求，大家何去何从？</p>
-            <p>风雨过后，却又是更大的雷暴，菁菁心碎了，彩虹在哪……</p>
+            <div class="posts">
+               {% for post in site.tags.novel2 %}
+                  <article class="post">
+                     <h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h5>
+                  </article>
+               {% endfor %}
+            </div>
          </div>       
          <div class="col-md-3 col-lg-3" id="bloglayout12">
             <h2>更多文章</h2>
+            <div class="posts">
                <h4><a href="/poems/">诗词</a></h4>
+               {% for post in site.tags.poem limit: 8 %}
+                  <article class="post">
+                     <h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h5>
+                  </article>
+               {% endfor %}
+            </div>
+            <div class="posts">
                <h4><a href="/proses/">散文</a></h4>
+               {% for post in site.tags.prose limit: 8 %}
+                  <article class="post">
+                     <h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h5>
+                  </article>
+               {% endfor %}
+            </div>
          </div>       
       </div>
    </div>
