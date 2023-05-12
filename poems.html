@@ -13,7 +13,7 @@ permalink: /poems/
                   <article class="post">
                      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
                      <div class="entry">
-                        {{ post.content | length >30 }}
+                        {{ post.content | truncatechars:3 }}
                      </div>
                      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">全文</a>
                   </article>
