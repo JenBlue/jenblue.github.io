@@ -20,9 +20,9 @@ layout: default
             </article>
          </div>       
          <div class="col-md-3 col-lg-3" id="bloglayout12">
-            <h2>更多文章</h2>
+            <h2>相关文章</h2>
             <div class="posts">
-               {% for post in site.tags.poem limit: 8 %}
+               {% for post in site.tags.poem %}
                   {% if post.tag == page.tag %}
                      <article class="post">
                         <h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h5>
@@ -31,7 +31,7 @@ layout: default
                {% endfor %}
             </div>
             <div class="posts">
-               {% for post in site.tags.prose limit: 8 %}
+               {% for post in site.tags.prose %}
                   {% if post.tag == page.tag %}
                      <article class="post">
                         <h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h5>
@@ -40,7 +40,7 @@ layout: default
                {% endfor %}
             </div>
             <div class="posts">
-               {% for post in site.tags.novel1 limit: 8 %}
+               {% for post in site.tags.novel1 %}
                   {% if post.tag == page.tag %}
                      <article class="post">
                         <h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h5>
@@ -49,7 +49,7 @@ layout: default
                {% endfor %}
             </div>
             <div class="posts">
-               {% for post in site.tags.novel2 limit: 8 %}
+               {% for post in site.tags.novel2 %}
                   {% if post.tag == page.tag %}
                      <article class="post">
                         <h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h5>
