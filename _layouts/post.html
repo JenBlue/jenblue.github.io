@@ -23,9 +23,11 @@ layout: default
             <h2>更多文章</h2>
 
             <div class="posts">
+               {% for post in site.tags.poem limit: 8 %}
                   <article class="post">
                      <h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h5>
                   </article>
+               {% endfor %}
             </div>
 
             <div class="posts">
