@@ -23,11 +23,11 @@ layout: default
             <h2>更多文章</h2>
 
             <div class="posts">
-               {% if post.tag %}
+               {% for post.tag in page.tag %}
                   <article class="post">
                      <h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h5>
                   </article>
-               {% endif %}
+               {% endfor %}
             </div>
 
             <div class="posts">
