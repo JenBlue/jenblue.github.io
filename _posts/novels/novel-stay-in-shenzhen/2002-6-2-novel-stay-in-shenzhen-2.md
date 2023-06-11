@@ -1,6 +1,8 @@
 ---
 layout: post
 title: 二  初识周峰
+author: jenblue
+chapter: 2
 tag: novel1
 ---
 
