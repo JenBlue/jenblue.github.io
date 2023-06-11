@@ -30,13 +30,8 @@ layout: default
                      {% assign prev_post = post %}
                   {% endif %}
                {% endfor %}
-               {% if prev_post %}
-                     <a rel="prev" href="{{ prev_post.url }}">{{ prev_post.title }}</a>
-               {% endif %}
-               {% if next_post %}
-                     <a rel="next" href="{{ next_post.url }}">{{ next_post.title }}</a>
-               {% endif %}
-               {% for post in site.tags.prose %}
+ 
+                {% for post in site.tags.prose %}
                   {% if post.url == page.url %}
                      {% assign post_index0 = forloop.index0 %}
                      {% assign post_index1 = forloop.index %}
@@ -50,12 +45,7 @@ layout: default
                      {% assign prev_post = post %}
                   {% endif %}
                {% endfor %}
-               {% if prev_post %}
-                     <a rel="prev" href="{{ prev_post.url }}">{{ prev_post.title }}</a>
-               {% endif %}
-               {% if next_post %}
-                     <a rel="next" href="{{ next_post.url }}">{{ next_post.title }}</a>
-               {% endif %}
+
                {% for post in site.tags.novel1 %}
                   {% if post.url == page.url %}
                      {% assign post_index0 = forloop.index0 %}
@@ -70,12 +60,7 @@ layout: default
                      {% assign prev_post = post %}
                   {% endif %}
                {% endfor %}
-               {% if prev_post %}
-                     <a rel="prev" href="{{ prev_post.url }}">{{ prev_post.title }}</a>
-               {% endif %}
-               {% if next_post %}
-                     <a rel="next" href="{{ next_post.url }}">{{ next_post.title }}</a>
-               {% endif %}
+
                {% for post in site.tags.novel2 %}
                   {% if post.url == page.url %}
                      {% assign post_index0 = forloop.index0 %}
@@ -90,6 +75,7 @@ layout: default
                      {% assign prev_post = post %}
                   {% endif %}
                {% endfor %}
+
                {% if prev_post %}
                      <a rel="prev" href="{{ prev_post.url }}">{{ prev_post.title }}</a>
                {% endif %}
