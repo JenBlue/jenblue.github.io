@@ -14,11 +14,9 @@ layout: default
                <div class="date">
                   发表于 {{ page.date | date: "%B %e, %Y" }}
                </div>
-               {% if page.comments_id %}
-                  {% include comments.html %}
-               {% endif %}
             </article>            
             <div class="PageNavigation">
+            {% if post in site.tags.poem %}
                {% for post in site.tags.poem %}
                   {% if post.url == page.url %}
                      {% assign post_index0 = forloop.index0 %}
@@ -39,7 +37,13 @@ layout: default
                {% if next_post %}
                      <a rel="next" href="{{ next_post.url }}">Next post: {{ next_post.title }}</a>
                {% endif %}
+            {% endif %}
             </div>
+            <article class="post">
+               {% if page.comments_id %}
+                  {% include comments.html %}
+               {% endif %}
+            </article>  
          </div>       
          <div class="col-md-3 col-lg-3" id="bloglayout12">
             <h2>相关文章</h2>
