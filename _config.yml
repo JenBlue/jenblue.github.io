@@ -77,7 +77,6 @@ sass:
 gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
-  - category-aware-previous-and-next # Category aware previous and next for jekyll posts 
 
 # Exclude these files from your production _site
 exclude:
@@ -86,3 +85,15 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+
+plugins:
+  - category-aware-previous-and-next # Category aware previous and next for jekyll posts 
+
+# Enable safe mode
+safe: true
+
+# Whitelist plugins under safe mode.
+# Note that `some-other-jekyll-plugin` is not listed here. Therefore,
+# it will not be loaded under safe mode.
+whitelist:
+  - category-aware-previous-and-next # Category aware previous and next for jekyll posts 
