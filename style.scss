@@ -376,11 +376,13 @@ nav {
 
 .PageNavigation a {
   display: inline-block;
+  border-radius: 5px;
+  padding: 8px 12px;
   margin-right: 60px;
   margin-bottom: 16px;
   color: $white;
+  font-size: 16px;
   background-color: $gray;
-  padding:8px;
 }
 
 //
