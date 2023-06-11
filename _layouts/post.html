@@ -41,17 +41,26 @@ layout: default
                {% endif %}
 
                {% if prev_post %}
-                  <a rel="prev" href="{{ prev_post.url }}">Previous post: {{ prev_post.title }}</a>
+                  <a rel="prev" href="{{ prev_post.url }}">{{ prev_post.title }}</a>
                {% endif %}
 
                {% if next_post %}
-                  <a rel="next" href="{{ next_post.url }}">Next post: {{ next_post.title }}</a>
+                  <a rel="next" href="{{ next_post.url }}">{{ next_post.title }}</a>
                {% endif %}
 
             </article>
          </div>       
          <div class="col-md-3 col-lg-3" id="bloglayout12">
             <h2>相关文章</h2>
+            <div class="posts">
+               {% for post in posts %}
+                  {% if post.tag == page.tag %}
+                     <article class="post">
+                        <h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h5>
+                     </article>
+                  {% endif %}
+               {% endfor %}
+            </div>
             <div class="posts">
                {% for post in site.tags.poem %}
                   {% if post.tag == page.tag %}
