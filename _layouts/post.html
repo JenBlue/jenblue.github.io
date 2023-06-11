@@ -37,22 +37,45 @@ layout: default
                      {% endif %}
                   {% endfor %}
                {% endif %}
-               {% if page.previous.url %}
-                  {% if page.previous.tag == page.tag %}
-                     <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
-                  {% endif %}
+               {% if prev-post.url %}
+                  <a class="prev" href="{{prev-post.url}}">&laquo; {{prev-post.title}}</a>
                {% endif %}
-               {% if page.next.url %}
-                  {% if page.next.tag == page.tag %}               
-                     <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
-                  {% endif %}
+               {% if next_post.url %}
+                  <a class="next" href="{{next_post.url}}">{{next_post.title}} &raquo;</a>
                {% endif %}
             </div>
          </div>       
          <div class="col-md-3 col-lg-3" id="bloglayout12">
             <h2>相关文章</h2>
             <div class="posts">
-               {% for post in site.tags %}
+               {% for post in site.tags.poem %}
+                  {% if post.tag == page.tag %}
+                     <article class="post">
+                        <h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h5>
+                     </article>
+                  {% endif %}
+               {% endfor %}
+            </div>
+            <div class="posts">
+               {% for post in site.tags.prose %}
+                  {% if post.tag == page.tag %}
+                     <article class="post">
+                        <h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h5>
+                     </article>
+                  {% endif %}
+               {% endfor %}
+            </div>
+            <div class="posts">
+               {% for post in site.tags.novel1 %}
+                  {% if post.tag == page.tag %}
+                     <article class="post">
+                        <h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h5>
+                     </article>
+                  {% endif %}
+               {% endfor %}
+            </div>
+            <div class="posts">
+               {% for post in site.tags.novel2 %}
                   {% if post.tag == page.tag %}
                      <article class="post">
                         <h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h5>
@@ -64,4 +87,3 @@ layout: default
       </div>
    </div>
 </div>
-
