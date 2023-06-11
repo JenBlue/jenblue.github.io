@@ -33,14 +33,11 @@ layout: default
                      {% assign prev_post = post %}
                   {% endif %}
                {% endfor %}
-               
-               {% if post.url == page.url %}
-                  {% if prev_post %}
+               {% if prev_post %}
                      <a rel="prev" href="{{ prev_post.url }}">Previous post: {{ prev_post.title }}</a>
-                  {% endif %}
-                  {% if next_post %}
+               {% endif %}
+               {% if next_post %}
                      <a rel="next" href="{{ next_post.url }}">Next post: {{ next_post.title }}</a>
-                  {% endif %}
                {% endif %}
             </div>
          </div>       
