@@ -287,24 +287,6 @@ nav {
   }
 }
 
-.PageNavigation {
-  font-size: 14px;
-  display: block;
-  width: auto;
-  overflow: hidden;
-}
-
-.PageNavigation a {
-  display: block;
-  width: 50%;
-  float: left;
-  margin: 1em 0;
-}
-
-.PageNavigation .next {
-  text-align: right;
-}
-
 //
 // Pages and Blogs
 //
@@ -384,6 +366,19 @@ nav {
   span {
     display: inline-block;
   }
+}
+
+.PageNavigation {
+  margin-top: 16px; 
+  padding-left:15px;  
+  padding-right:15px;
+}
+
+.PageNavigation a {
+  margin-right: 60px;
+  color: $white;
+  background-color: $gray;
+  padding:8px;
 }
 
 //
