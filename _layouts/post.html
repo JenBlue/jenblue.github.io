@@ -19,11 +19,27 @@ layout: default
                {% endif %}
             </article>
             <div class="PageNavigation">
-               {% if page.next_in_category != nil %}
-                  <a href="{{page.next_in_category.url}}">Older Post</a>
+               {% assign cat = page.categories[0] %}
+               {% assign cat_list = site.categories[cat] %}
+               {% for post in cat_list %}
+                  {% if post.url == page.url %}
+                     {% assign pOffset = forloop.index0 | minus: 1 %}
+                     {% assign nOffset = pOffset | plus: 2 %}
+                     {% if forloop.first == false %}
+                        {% assign next_post = cat_list[pOffset] %}
+                     {% endif %}
+                     {% if forloop.last == false %}
+                        {% assign previous_post = cat_list[nOffset] %}
+                     {% endif %}
+                  {% break %}
+                  {% endif %}
+               {% endfor %}
+               {% if prev_post %}
+                  <a href="{{ prev_post.url }}">{{ prev_post.title }}</a>
                {% endif %}
-               {% if page.previous_in_category != nil %}
-                  <a href="{{page.previous_in_category.url}}">Newer Post</a>
+
+               {% if next_post %}
+                  <a href="{{ next_post.url }}">{{ next_post.title }}</a>
                {% endif %}
             </div>
          </div>       
