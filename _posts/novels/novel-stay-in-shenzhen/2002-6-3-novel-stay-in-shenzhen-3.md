@@ -1,8 +1,6 @@
 ---
 layout: post
 title: 三  同住宿舍
-author: jenblue
-chapter: 3
 tag: novel1
 ---
 

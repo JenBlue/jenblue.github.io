@@ -1,8 +1,6 @@
 ---
 layout: post
 title: 一  落地生根
-author: jenblue
-chapter: 1
 tag: novel1
 ---
 
