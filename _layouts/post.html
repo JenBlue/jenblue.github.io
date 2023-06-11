@@ -18,38 +18,19 @@ layout: default
                   {% include comments.html %}
                {% endif %}
             </article>
+            <div class="PageNavigation">
+               {% if page.previous.url %}
+                  <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+               {% endif %}
+               {% if page.next.url %}
+                  <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+               {% endif %}
+            </div>
          </div>       
          <div class="col-md-3 col-lg-3" id="bloglayout12">
             <h2>相关文章</h2>
             <div class="posts">
-               {% for post in site.tags.poem %}
-                  {% if post.tag == page.tag %}
-                     <article class="post">
-                        <h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h5>
-                     </article>
-                  {% endif %}
-               {% endfor %}
-            </div>
-            <div class="posts">
-               {% for post in site.tags.prose %}
-                  {% if post.tag == page.tag %}
-                     <article class="post">
-                        <h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h5>
-                     </article>
-                  {% endif %}
-               {% endfor %}
-            </div>
-            <div class="posts">
-               {% for post in site.tags.novel1 %}
-                  {% if post.tag == page.tag %}
-                     <article class="post">
-                        <h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h5>
-                     </article>
-                  {% endif %}
-               {% endfor %}
-            </div>
-            <div class="posts">
-               {% for post in site.tags.novel2 %}
+               {% for post in site.tags %}
                   {% if post.tag == page.tag %}
                      <article class="post">
                         <h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h5>
