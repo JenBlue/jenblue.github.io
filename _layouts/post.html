@@ -16,7 +16,6 @@ layout: default
                </div>
             </article>            
             <div class="PageNavigation">
-               {% if post.tag == poem %}
                   {% for post in site.tags.poem %}
                      {% if post.url == page.url %}
                         {% assign post_index0 = forloop.index0 %}
@@ -31,15 +30,18 @@ layout: default
                         {% assign prev_post = post %}
                      {% endif %}
                   {% endfor %}
-                  {% if prev_post and prev-post.tag == poem %}
+                  {% if prev_post %}
+                     {% if prev_post.tag == page.tag %}
                         <a rel="prev" href="{{ prev_post.url }}">前一首：{{ prev_post.title }}</a>
+                     {% endif %}
                   {% endif %}
-                  {% if next_post and next-post.tag == poem  %}
+                  {% if next_post %}
+                     {% if next_post.tag == page.tag %}
                         <a rel="next" href="{{ next_post.url }}">后一首：{{ next_post.title }}</a>
+                     {% endif %}
                   {% endif %}
-               {% endif %}
 
-               {% if post.tag == prose %}
+
                   {% for post in site.tags.prose %}
                      {% if post.url == page.url %}
                         {% assign post_index0 = forloop.index0 %}
@@ -55,14 +57,16 @@ layout: default
                      {% endif %}
                   {% endfor %}
                   {% if prev_post %}
+                     {% if prev_post.tag == page.tag %}
                         <a rel="prev" href="{{ prev_post.url }}">前一篇：{{ prev_post.title }}</a>
+                     {% endif %}
                   {% endif %}
                   {% if next_post %}
+                     {% if next_post.tag == page.tag %}
                         <a rel="next" href="{{ next_post.url }}">后一篇：{{ next_post.title }}</a>
+                     {% endif %}
                   {% endif %}
-               {% endif %}
 
-               {% if post.tag == novel1 %}
                   {% for post in site.tags.novel1 %}
                      {% if post.url == page.url %}
                         {% assign post_index0 = forloop.index0 %}
@@ -78,14 +82,17 @@ layout: default
                      {% endif %}
                   {% endfor %}
                   {% if prev_post %}
+                     {% if prev_post.tag == page.tag %}
                         <a rel="prev" href="{{ prev_post.url }}">{{ prev_post.title }}</a>
+                     {% endif %}
                   {% endif %}
                   {% if next_post %}
+                     {% if next_post.tag == page.tag %}
                         <a rel="next" href="{{ next_post.url }}">{{ next_post.title }}</a>
+                     {% endif %}
                   {% endif %}
-               {% endif %}
 
-               {% if post.tag == novel2 %}
+
                   {% for post in site.tags.novel2 %}
                      {% if post.url == page.url %}
                         {% assign post_index0 = forloop.index0 %}
@@ -101,12 +108,16 @@ layout: default
                      {% endif %}
                   {% endfor %}
                   {% if prev_post %}
+                     {% if prev_post.tag == page.tag %}
                         <a rel="prev" href="{{ prev_post.url }}">{{ prev_post.title }}</a>
+                     {% endif %}
                   {% endif %}
                   {% if next_post %}
+                     {% if next_post.tag == page.tag %}
                         <a rel="next" href="{{ next_post.url }}">{{ next_post.title }}</a>
+                     {% endif %}
                   {% endif %}
-               {% endif %}
+
             </div>
             <article class="post">
                {% if page.comments_id %}
