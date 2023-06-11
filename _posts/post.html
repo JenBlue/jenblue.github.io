@@ -18,7 +18,8 @@ layout: default
                   {% include comments.html %}
                {% endif %}
             </article>
-            <div class="PageNavigation">
+            <article class="PageNavigation">
+
 
                {% if page.categories %}
                   {% assign category = page.categories[0] %}
@@ -40,14 +41,14 @@ layout: default
                {% endif %}
 
                {% if prev_post %}
-                  <a href="{{ prev_post.url }}">{{ prev_post.title }}</a>
+                  <a rel="prev" href="{{ prev_post.url }}">Previous post: {{ prev_post.title }}</a>
                {% endif %}
 
                {% if next_post %}
-                  <a href="{{ next_post.url }}">{{ next_post.title }}</a>
+                  <a rel="next" href="{{ next_post.url }}">Next post: {{ next_post.title }}</a>
                {% endif %}
 
-            </div>
+            </article>
          </div>       
          <div class="col-md-3 col-lg-3" id="bloglayout12">
             <h2>相关文章</h2>
