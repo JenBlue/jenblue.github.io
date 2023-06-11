@@ -18,30 +18,37 @@ layout: default
                   {% include comments.html %}
                {% endif %}
             </article>
-            <div class="PageNavigation">
-               {% assign cat = page.categories[0] %}
-               {% assign cat_list = site.categories[cat] %}
-               {% for post in cat_list %}
-                  {% if post.url == page.url %}
-                     {% assign pOffset = forloop.index0 | minus: 1 %}
-                     {% assign nOffset = pOffset | plus: 2 %}
-                     {% if forloop.first == false %}
-                        {% assign next_post = cat_list[pOffset] %}
+            <article class="PageNavigation">
+
+
+               {% if page.categories %}
+                  {% assign category = page.categories[0] %}
+                  {% assign posts = site.categories[category] %}
+                  {% for post in posts %}
+                     {% if post.url == page.url %}
+                        {% assign post_index0 = forloop.index0 %}
+                        {% assign post_index1 = forloop.index %}
                      {% endif %}
-                     {% if forloop.last == false %}
-                        {% assign previous_post = cat_list[nOffset] %}
+                  {% endfor %}
+                  {% for post in posts %}
+                     {% if post_index0 == forloop.index %}
+                        {% assign next_post = post %}
                      {% endif %}
-                  {% break %}
-                  {% endif %}
-               {% endfor %}
+                     {% if post_index1 == forloop.index0 %}
+                        {% assign prev_post = post %}
+                     {% endif %}
+                  {% endfor %}
+               {% endif %}
+
                {% if prev_post %}
-                  <a href="{{ prev_post.url }}">{{ prev_post.title }}</a>
+                  <a rel="prev" href="{{ prev_post.url }}">Previous post: {{ prev_post.title }}</a>
                {% endif %}
 
                {% if next_post %}
-                  <a href="{{ next_post.url }}">{{ next_post.title }}</a>
+                  <a rel="next" href="{{ next_post.url }}">Next post: {{ next_post.title }}</a>
                {% endif %}
-            </div>
+
+            </article>
          </div>       
          <div class="col-md-3 col-lg-3" id="bloglayout12">
             <h2>相关文章</h2>
