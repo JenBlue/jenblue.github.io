@@ -16,7 +16,6 @@ layout: default
                </div>
             </article>            
             <div class="PageNavigation">
-            {% if post in site.tags.poem %}
                {% for post in site.tags.poem %}
                   {% if post.url == page.url %}
                      {% assign post_index0 = forloop.index0 %}
@@ -37,7 +36,6 @@ layout: default
                {% if next_post %}
                      <a rel="next" href="{{ next_post.url }}">Next post: {{ next_post.title }}</a>
                {% endif %}
-            {% endif %}
             </div>
             <article class="post">
                {% if page.comments_id %}
