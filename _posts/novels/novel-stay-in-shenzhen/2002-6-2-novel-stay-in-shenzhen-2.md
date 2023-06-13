@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 二  初识周峰
+category: limitlisting
 tag: novel1
 ---
 

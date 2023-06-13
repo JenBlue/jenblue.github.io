@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 一  落地生根
+category: limitlisting
 tag: novel1
 ---
 
