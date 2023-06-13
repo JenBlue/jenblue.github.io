@@ -9,14 +9,15 @@ permalink: /novel-love-in-xian/
       <div class="row"> 
          <div class="col-md-9 col-lg-9" id="bloglayout11">
             <div class="posts">
-               {% for post in site.tags.novel2 reversed limit: 4 %}
-                  <article class="post">
-                     <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-                     <div class="entry">
-                        {{ post.content | truncatechars:200 }}
-                     </div>
-                     <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">全文</a>
-                  </article>
+               {% for post in site.tags.novel2 reversed %}
+                  {% if post.category != limitlisting %}
+                     <article class="post">
+                        <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+                        <div class="entry">
+                           {{ post.content }}
+                        </div>
+                     </article>
+                  {% endif %}
                {% endfor %}
             </div>
          </div>       
