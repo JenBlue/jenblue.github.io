@@ -9,7 +9,7 @@ permalink: /novel-stay-in-shenzhen/
       <div class="row"> 
          <div class="col-md-9 col-lg-9" id="bloglayout11">
             <div class="posts">
-               {% for post in site.tags.novel1 limit: 4 %}
+               {% for post in site.tags.novel1 reversed limit: 4 %}
                   <article class="post">
                      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
                      <div class="entry">
@@ -23,7 +23,7 @@ permalink: /novel-stay-in-shenzhen/
          <div class="col-md-3 col-lg-3" id="bloglayout12">
             <h2>小说 · 客过深圳</h2>
             <div class="posts">
-               {% for post in site.tags.novel1 %}
+               {% for post in site.tags.novel1 reversed %}
                   <article class="post">
                      <h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h5>
                   </article>
