@@ -14,13 +14,13 @@ permalink: /novels/
             <p>公司违法被检举，周峰受到怀疑报复，事业一落千丈；而菁菁辞职，误入期货公司，又受到千万富翁的追求，大家何去何从？</p>
             <p>风雨过后，却又是更大的雷暴，菁菁心碎了，彩虹在哪……</p>
             <div class="posts">
-               {% for post in site.tags.novel1 reversed %}
-                  {% if post.category == limitlisting %}
+               {% if post.category == limitlisting %}
+                  {% for post in site.tags.novel1 reversed %}
                   <article class="post">
                      <h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h5>
                   </article>
-                  {% endif %}
-               {% endfor %}
+                  {% endfor %}
+               {% endif %}
             </div>
             <h2><a href="/novel-love-in-xian/">小说 · 爱在古城</a></h2>
 
