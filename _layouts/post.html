@@ -129,7 +129,7 @@ layout: default
                {% endfor %}
             </div>
             <div class="posts">
-               {% for post in site.tags.novel2 reversed %}
+               {% for post in site.tags.novel2 | sort: 'date' | reverse %}
                   {% if post.tag == page.tag %}
                      <article class="post">
                         <h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h5>
