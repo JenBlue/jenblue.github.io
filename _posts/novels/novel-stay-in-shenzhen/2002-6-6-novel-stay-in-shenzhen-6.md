@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 六  卢静之恋
+category: limitlisting
 tag: novel1
 ---
 

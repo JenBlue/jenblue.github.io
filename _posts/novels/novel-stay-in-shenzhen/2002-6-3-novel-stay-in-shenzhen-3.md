@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 三  同住宿舍
+category: limitlisting
 tag: novel1
 ---
 

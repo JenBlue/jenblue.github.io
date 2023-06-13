@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 四  初入公司
+category: limitlisting
 tag: novel1
 ---
 
