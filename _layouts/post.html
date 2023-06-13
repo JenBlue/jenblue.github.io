@@ -121,7 +121,7 @@ layout: default
             </div>
             <div class="posts">
                {% for post in site.tags.novel1 reversed %}
-                  {% if post.tag == page.tag %}
+                  {% if post.tag[0] == page.tag[0] %}
                      <article class="post">
                         <h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h5>
                      </article>
@@ -130,7 +130,7 @@ layout: default
             </div>
             <div class="posts">
                {% for post in site.tags.novel2 reversed %}
-                  {% if post.tag == page.tag %}
+                  {% if post.tag[0] == page.tag[0] %}
                      <article class="post">
                         <h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h5>
                      </article>
