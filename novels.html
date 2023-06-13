@@ -14,12 +14,10 @@ permalink: /novels/
             <p>公司违法被检举，周峰受到怀疑报复，事业一落千丈；而菁菁辞职，误入期货公司，又受到千万富翁的追求，大家何去何从？</p>
             <p>风雨过后，却又是更大的雷暴，菁菁心碎了，彩虹在哪……</p>
             <div class="posts">
-               {% for post in site.tags.novel1 reversed %}
-                  {% if post.date <= 10 June 2002 %}
+               {% for post in site.tags.novel1 reversed limit: 16 %}
                   <article class="post">
                      <h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h5>
                   </article>
-                  {% endif %}
                {% endfor %}
             </div>
             <h2><a href="/novel-love-in-xian/">小说 · 爱在古城</a></h2>
@@ -32,7 +30,7 @@ permalink: /novels/
             <p>还有年轻的公司总裁程水清、大明星水冰儿，这些不同身世，拥有不同品格的年轻人是如何在西安古城这个大都市挣扎生存，演绎自己的人生呢？是如何在他们或高官，或富商，或卑贱的父辈的影响束缚下寻求维护属于自己的那份爱情呢？</p>
             <p>几生几死，几分几合，谁被无情地辗入都市官场商场混浊的泥沙之中？谁为了捍卫自己的真心而历尽磨难？</p>
             <div class="posts">
-               {% for post in site.tags.novel2 reversed limit: 20 %}
+               {% for post in site.tags.novel2 reversed limit: 16 %}
                   <article class="post">
                      <h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h5>
                   </article>
