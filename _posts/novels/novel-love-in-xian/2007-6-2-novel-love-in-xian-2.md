@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 二　奔驰车上
+category: limitlisting
 tag: novel2
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 三　西式浪漫
+category: limitlisting
 tag: novel2
 ---
 

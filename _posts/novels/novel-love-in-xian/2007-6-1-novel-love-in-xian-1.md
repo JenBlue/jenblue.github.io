@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 一　爱的选择
+category: limitlisting
 tag: novel2
 ---
 

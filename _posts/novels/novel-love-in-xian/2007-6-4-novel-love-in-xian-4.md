@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 四　同是分手
+category: limitlisting
 tag: novel2
 ---
 

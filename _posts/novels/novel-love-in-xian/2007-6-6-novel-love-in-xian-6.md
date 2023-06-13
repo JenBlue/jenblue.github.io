@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 六　华山之上
+category: limitlisting
 tag: novel2
 ---
 
