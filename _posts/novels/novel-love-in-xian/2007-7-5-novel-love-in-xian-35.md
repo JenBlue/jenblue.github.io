@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 三十五　饭店包厢
-category: limitlisting
 tag: novel2
 ---
 
