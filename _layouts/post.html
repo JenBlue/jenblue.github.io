@@ -92,6 +92,31 @@ layout: default
                      {% endif %}
                   {% endif %}
 
+                  {% for post in site.tags.novel2 %}
+                     {% if post.url == page.url %}
+                        {% assign post_index0 = forloop.index0 %}
+                        {% assign post_index1 = forloop.index %}
+                     {% endif %}
+                  {% endfor %}
+                  {% for post in site.tags.novel2 %}
+                     {% if post_index0 == forloop.index %}
+                        {% assign next_post = post %}
+                     {% endif %}
+                     {% if post_index1 == forloop.index0 %}
+                        {% assign prev_post = post %}
+                     {% endif %}
+                  {% endfor %}
+                  {% if prev_post %}
+                     {% if prev_post.tag == page.tag %}
+                        <a rel="prev" href="{{ prev_post.url }}">{{ prev_post.title }}</a>
+                     {% endif %}
+                  {% endif %}
+                  {% if next_post %}
+                     {% if next_post.tag == page.tag %}
+                        <a rel="next" href="{{ next_post.url }}">{{ next_post.title }}</a>
+                     {% endif %}
+                  {% endif %}
+
             </div>
             <article class="post">
                {% if page.comments_id %}
