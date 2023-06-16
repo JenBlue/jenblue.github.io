@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 二十八　庆功酒会
+title: 二十八　酬商酒会
 tag: novel2
 ---
 
