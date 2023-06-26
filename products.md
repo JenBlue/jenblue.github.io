@@ -86,9 +86,9 @@ permalink: /products/
             <p>我们是使用 Adobe Photoshop, Illustrator, InDesign, 和 Acrobat Pro 的专家. 我们还熟悉 Adobe Dreamweaver, Premiere, 和 After Effects 等其它平面设计软件.</p>
          </div>
          <div class="col-md-6 col-lg-6" id="pagelayout11">
-            <h2>尽快升级你的 Drupal 7 网站</h2>
-            <p><a href="https://www.drupal.org/" target="_blank"><img src="/images/LogoDrupal7.png" alt="Logo"></a></p>  
-            <p>我们可以为你的 Drupal 7 网站做维护工作，或升级到 Drupal 9。 Drupal 官网对 Drupal 7 的技术支持到2021年11月份截至， 但他们成立了一个 Drupal 7 专题组，继续提供 Drupal 7 核心代码与核心组件的安全维护升级服务。</p>
+            <h2>网站托管服务</h2>
+            <p><a href="https://www.drupal.org/" target="_blank"><img src="/images/LogoBluehost.png" alt="Logo"></a></p>  
+            <p>集中统一的平台管理，快速稳定的主机运行，免费的域名，SSL 协议 和 CDN，24/7 不间断的技术支持。</p>
          </div>       
       </div>
    </div>
