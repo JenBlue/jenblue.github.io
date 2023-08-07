@@ -35,3 +35,5 @@ messengers from the afterlife<br />
 lost beloved ones connect with me<br />
 栖息于 Norwegian Wood<br />
 河水永远澄清
+
+-- 纪念先父，先慈，长兄与长姊
