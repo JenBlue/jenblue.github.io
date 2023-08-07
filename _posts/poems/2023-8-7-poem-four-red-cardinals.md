@@ -15,8 +15,10 @@ grand, glories, and ongoing
 书本从手中怅然跌落<br />
 是聊斋志异<br />
 还是红楼梦<br />
-It's about the Paths of the Dead<br />
-if I'm Arwen in the Lord of the Rings
+It would have been
+the Paths of the Dead<br />
+if I am Arwen
+in the Lord of the Rings
 
 黑白的画面一帧一帧<br />
 仿佛拥有 Photographic Memory<br />
