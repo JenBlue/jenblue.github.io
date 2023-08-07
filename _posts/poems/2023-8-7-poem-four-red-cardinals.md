@@ -15,9 +15,9 @@ grand, glories, and ongoing
 书本从手中怅然跌落<br />
 是聊斋志异<br />
 还是红楼梦<br />
-It would have been
+It would have been<br />
 the Paths of the Dead<br />
-if I am Arwen
+if I am Arwen<br />
 in the Lord of the Rings
 
 黑白的画面一帧一帧<br />
@@ -27,9 +27,9 @@ in the Lord of the Rings
 幽暗的山川流过我心<br />
 带走那一方天地的光明
 
-独坐午夜至拂晓<br />
+独坐午夜至凌晨<br />
 入目闪烁的星光<br />
-来自阳台屋角的风铃<br />
+来自阳台檐角的风铃<br />
 四只 Red Cardinals<br />
 messengers from the afterlife<br />
 lost beloved ones connect with me<br />
