@@ -4,21 +4,6 @@ title: Four Red Cardinals
 tag: poem
 ---
 
-百芳园中无名花，<br />
-水色肌肤淡影斜。<br />
-苇叶托起着无力，<br />
-骚人墨客难识她。
-
-不攀牡丹同富贵，<br />
-不羡玫瑰有流霞。<br />
-不仿桃李枝头艳，<br />
-不与水莲争无瑕。
-
-一身轻衣风中舞，<br />
-两袖含香自带华。<br />
-遗世无为人间事，<br />
-不问王候至谁家。
-
 Samsung Flip5 手机<br />
 放着高晓松儿时听的<br />
 Yesterday Once More<br />
