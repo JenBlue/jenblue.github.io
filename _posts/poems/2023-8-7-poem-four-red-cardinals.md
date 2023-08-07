@@ -20,9 +20,9 @@ if I'm Arwen in the Lord of the Rings
 
 黑白的画面一帧一帧<br />
 仿佛拥有 Photographic Memory<br />
-来不及调和语言和诗韵<br />
+来不及调和音韵<br />
 发出质朴的单声<br />
-幽暗的山川流经我心<br />
+幽暗的山川流过我心<br />
 带走那一方天地的光明
 
 独坐午夜至拂晓<br />
