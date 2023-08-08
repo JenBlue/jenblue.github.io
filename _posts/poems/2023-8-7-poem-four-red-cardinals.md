@@ -10,7 +10,7 @@ Yesterday Once More<br />
 原生的差距隔了半个世纪<br />
 不仅是俗世的贫困<br />
 还有诗与远方<br />
-grand, glories, and ongoing
+grand, glories, and growing
 
 书本从手中怅然跌落<br />
 是聊斋志异<br />
