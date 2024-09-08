@@ -15,7 +15,7 @@ permalink: /regular-website-examples/
 
 公园教堂网站创建和开发在 Drupal 9 平台上。网页布局采用自制主题。主要功能包括任意尺寸幻灯轮播，留言板，日历，图片集，还可以向订阅者发送本站新闻邮件。
 
-[![Site Home](/images/churchOnTheParkWebsite2.jpg "churchonthepark.org Home")](https://www.churchonthepark.org/cotp/web/)
+[![Site Home](/images/churchOnTheParkWebsite2.jpg "churchonthepark.org Home")](https://www.churchonthepark.org)
 
 <div class="gridlayoutthird">
     <h2><a href="https://www.theaitu.com" target="_blank">www.theaitu.com</a></h2>
