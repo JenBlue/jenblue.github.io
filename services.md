@@ -28,7 +28,7 @@ permalink: /services/
             <p>一花一世界，我的世界与别人的一定不同，可借鉴，勿套用。</p>  
          </div>       
          <div class="col-md-3 col-lg-3" id="pagelayout11">
-            <p><img src="/images/jennyu2022.jpg" alt="Jenny Yu Image"></p>
+            <p>&nbsp;</p>
          </div>
       </div>
    </div>
